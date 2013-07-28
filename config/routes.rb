@@ -1,4 +1,8 @@
 Riottabs::Application.routes.draw do
+  resource "song"
+  resource "artist"
+  resource "album"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
